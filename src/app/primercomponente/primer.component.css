@@ -302,11 +302,13 @@ a{
                 .social a:hover{
                     color: #a59898;
                 }
-        .texto-principal{
+        div.texto-principal{
             /*background: #f07b3f; ///////////////////////////////////////
             
             No me toma el angular los cambios de flexbox que hago acá..
-            toma solo la fuente...*/
+
+            toma solo la fuente..<div _ngcontent-c1="" class="texto-principal"><h1 _ngcontent-c1=""></h1></div>.*/
+            
             height: 36.25rem;
            
             /*flex*/
