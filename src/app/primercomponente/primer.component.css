@@ -242,11 +242,18 @@ a{
                 align-items: center;
                 text-align: center;
                 color: #fff;
-            }
+                -webkit-transform: rotateY(180deg);
+                -moz-transform: rotateY(180deg);
+                -ms-transform: rotateY(180deg);
+                -o-transform: rotateY(180deg);
+}
             .tarjeta-wrap:hover .tarjeta{
                 transform: rotateY(180deg);
-                
-            }
+                -webkit-transform: rotateY(180deg);
+                -moz-transform: rotateY(180deg);
+                -ms-transform: rotateY(180deg);
+                -o-transform: rotateY(180deg);
+}
            /* .card1{
                 background-image:url(imagenes/card1.jpg);
                 background-size: cover;
@@ -296,17 +303,19 @@ a{
                     color: #a59898;
                 }
         .texto-principal{
-            /*background: #f07b3f;*/
+            /*background: #f07b3f; ///////////////////////////////////////
+            
+            No me toma el angular los cambios de flexbox que hago acá..
+            toma solo la fuente...*/
             height: 36.25rem;
            
             /*flex*/
-            display: flex;
+            display: flex ;
             align-items: center;
-            justify-content: center
         }    
             .texto-principal h1{
                 font-family: 'Open Sans Condensed', sans-serif;
-                font-size: 2rem;
+                font-size: 4rem;
                 color: #fff;
                 font-weight: 100;
                 text-align: center;
@@ -431,7 +440,7 @@ a{
             padding: 0 0.625rem;
             letter-spacing: 2px;
         }
-        /*@media all and(max-width: 1100px){
+        @media all and(max-width: 1100px){
             h1{
                 font-size: 10px;
             }
@@ -542,6 +551,6 @@ a{
             form{
                 width: 100%;
             }
-        }*/
+        }
         
 
